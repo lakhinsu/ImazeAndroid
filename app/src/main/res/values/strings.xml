@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">ImazeAndroid</string>
+
+    <!--Bottom navigation title -->
+    <string name="tab_1">Technical</string>
+    <string name="tab_2">Non-Technical</string>
+    <string name="tab_3">Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tech_fragment">Technical Fragment </string>
+    <string name="non_tech_fragment">Non Technical Fragment</string>
+    <string name="acc_fragment">Acc Fragment</string>
+
+
 </resources>
