@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#36649F</color>
+    <color name="colorPrimaryDark">#F66934</color>
+    <color name="colorAccent">#d44109</color>
     <color name="balck">#000000</color>
+    <color name="imaze_color_1">#F66934</color>
+    <color name="imaze_color_2">#36649F</color>
 </resources>

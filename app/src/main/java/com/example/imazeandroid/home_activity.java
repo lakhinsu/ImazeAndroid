@@ -5,8 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.example.imazeandroid.Fragments.nontech_fragment;
+import com.example.imazeandroid.Fragments.other_fragment;
+import com.example.imazeandroid.Fragments.tech_fragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class home_activity extends AppCompatActivity {
@@ -19,6 +24,22 @@ public class home_activity extends AppCompatActivity {
         bottomNav.setOnNavigationItemSelectedListener(navListener);
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_layout, new tech_fragment()).commit();
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.item_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.acc_activity:
+                break;
+        }
+       return super.onOptionsItemSelected(item);
+    }
+
     // Buttom Navigation
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
             new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -33,8 +54,8 @@ public class home_activity extends AppCompatActivity {
                         case R.id.nav_nontech:
                             selectedFragment = new nontech_fragment();
                             break;
-                        case R.id.nav_user:
-                            selectedFragment = new acc_fragment();
+                        case R.id.nav_other:
+                            selectedFragment = new other_fragment();
                             break;
                     }
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_layout,

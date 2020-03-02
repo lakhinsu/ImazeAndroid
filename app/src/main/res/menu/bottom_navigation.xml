@@ -3,13 +3,16 @@
     <item
         android:id="@+id/nav_tech"
         android:title="@string/tab_1"
-        android:icon="@drawable/ic_tech"/>
+        android:color="@color/imaze_color_2"
+        android:icon="@drawable/ic_tech_logo"/>
     <item
         android:id="@+id/nav_nontech"
         android:title="@string/tab_2"
-        android:icon="@drawable/ic_nontech"/>
+        android:color="@color/imaze_color_2"
+        android:icon="@drawable/ic_non_logo"/>
     <item
-        android:id="@+id/nav_user"
+        android:id="@+id/nav_other"
         android:title="@string/tab_3"
-        android:icon="@drawable/ic_person"/>
+        android:color="@color/imaze_color_2"
+        android:icon="@drawable/ic_other_logo"/>
 </menu>
