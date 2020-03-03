@@ -2,8 +2,9 @@
 <resources>
     <color name="colorPrimary">#36649F</color>
     <color name="colorPrimaryDark">#F66934</color>
-    <color name="colorAccent">#d44109</color>
-    <color name="balck">#000000</color>
+    <color name="colorAccent">#D44109</color>
+    <color name="black">#000000</color>
     <color name="imaze_color_1">#F66934</color>
     <color name="imaze_color_2">#36649F</color>
+    <color name="white">#ffffff</color>
 </resources>
