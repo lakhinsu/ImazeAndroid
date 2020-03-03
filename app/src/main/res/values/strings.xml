@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">ImazeAndroid</string>
+
+    <!--Bottom navigation title -->
+    <string name="tab_1">Technical</string>
+    <string name="tab_2">Non-Technical</string>
+    <string name="tab_3">Other</string>
+
+    <!-- Fragment Name -->
+    <string name="tech_fragment">Technical Fragment </string>
+    <string name="non_tech_fragment">Non Technical Fragment</string>
+    <string name="other_fragment">Other</string>
+    <!-- Item menu title -->
+    <string name="acc_title">Account</string>
+
+    <!--  Techinal Event Name  -->
+
+    <string name="tech_event_1">Scrub The Mind</string>
+    <string name="tech_event_2">Rotolare</string>
+    <string name="tech_event_3">Codothon</string>
+    <string name="tech_event_4">Game of Codes</string>
+    <string name="tech_event_5">Hydrizer</string>
+    <string name="tech_event_6">World War 3</string>
+    <string name="tech_event_7">Armagendon</string>
+    <string name="tech_event_8">Electromania</string>
+    <string name="tech_event_9">Electrosparkz</string>
+    <string name="tech_event_10">Trail To Recruit</string>
+
+
+    <!--  Non-Techinal Event Name  -->
+
+    <string name="non_tech_event_1">The Survival 2.0</string>
+    <string name="non_tech_event_2">Venture-O-Belt</string>
+    <string name="non_tech_event_3">Gobble Step</string>
+    <string name="non_tech_event_4">Quizzimaze 2.0</string>
+    <string name="non_tech_event_5">Kon Banega Pradhan Mantri</string>
+    <string name="non_tech_event_6">Treasure-Dash</string>
+    <string name="non_tech_event_7">Blast And Hunt</string>
+    <string name="non_tech_event_8">Rapport Inquest</string>
+    <string name="non_tech_event_9">Master Chef 2.0</string>
+    <string name="non_tech_event_10">Trade X</string>
+    <string name="non_tech_event_11">Flix-Frenzy</string>
+
 </resources>

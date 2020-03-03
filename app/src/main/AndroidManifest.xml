@@ -11,10 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
-          <intent-filter>
-            <category android:name="android.intent.category.LAUNCHER" />
-          </intent-filter>
+        <activity android:name=".common"></activity>
+        <activity android:name=".home_activity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".splashscreen">
             <intent-filter>

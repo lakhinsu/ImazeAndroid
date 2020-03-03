@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_tech"
+        android:title="@string/tab_1"
+        android:color="@color/imaze_color_2"
+        android:icon="@drawable/ic_tech_logo"/>
+    <item
+        android:id="@+id/nav_nontech"
+        android:title="@string/tab_2"
+        android:color="@color/imaze_color_2"
+        android:icon="@drawable/ic_non_logo"/>
+    <item
+        android:id="@+id/nav_other"
+        android:title="@string/tab_3"
+        android:color="@color/imaze_color_2"
+        android:icon="@drawable/ic_other_logo"/>
+</menu>
