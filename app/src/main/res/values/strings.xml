@@ -10,8 +10,10 @@
     <string name="tech_fragment">Technical Fragment </string>
     <string name="non_tech_fragment">Non Technical Fragment</string>
     <string name="other_fragment">Other</string>
+
     <!-- Item menu title -->
     <string name="acc_title">Account</string>
+    <string name="exit">Exit</string>
 
     <!--  Techinal Event Name  -->
 
@@ -28,7 +30,7 @@
 
 
     <!--  Non-Techinal Event Name  -->
-
+agaa
     <string name="non_tech_event_1">The Survival 2.0</string>
     <string name="non_tech_event_2">Venture-O-Belt</string>
     <string name="non_tech_event_3">Gobble Step</string>

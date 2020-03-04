@@ -5,8 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragments.nontech_fragment">
-    <RelativeLayout
+
+<RelativeLayout
         android:layout_width="match_parent"
+        android:background="@color/darkergray"
         android:layout_height="wrap_content">
 
         <TextView
@@ -15,7 +17,9 @@
             android:layout_centerHorizontal="true"
             android:gravity="center"
             android:text="Non - Technical Event"
+            android:layout_marginTop="7dp"
             android:textSize="24sp"
+            android:background="@drawable/dgrate_accent_2"
             android:textStyle="bold"
             tools:ignore="HardcodedText,MissingConstraints" />
 
@@ -32,7 +36,7 @@
             android:layout_marginTop="45dp"
             android:layout_marginEnd="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/dgrate"
+            android:background="@drawable/dgrate_accent_2"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
@@ -78,7 +82,7 @@
             android:layout_marginTop="200dp"
             android:layout_marginEnd="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/dgrate"
+            android:background="@drawable/dgrate_accent_2"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
@@ -123,7 +127,7 @@
             android:layout_marginTop="355dp"
             android:layout_marginEnd="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/dgrate"
+            android:background="@drawable/dgrate_accent_2"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
@@ -168,7 +172,7 @@
             android:layout_marginTop="510dp"
             android:layout_marginEnd="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/dgrate"
+            android:background="@drawable/dgrate_accent_2"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
@@ -214,7 +218,7 @@
             android:layout_marginTop="665dp"
             android:layout_marginEnd="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/dgrate"
+            android:background="@drawable/dgrate_accent_2"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
@@ -259,7 +263,7 @@
             android:layout_marginTop="820dp"
             android:layout_marginEnd="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/dgrate"
+            android:background="@drawable/dgrate_accent_2"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
@@ -304,7 +308,7 @@
             android:layout_marginTop="975dp"
             android:layout_marginEnd="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/dgrate"
+            android:background="@drawable/dgrate_accent_2"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
@@ -349,7 +353,7 @@
             android:layout_marginTop="1130dp"
             android:layout_marginEnd="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/dgrate"
+            android:background="@drawable/dgrate_accent_2"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
@@ -394,7 +398,7 @@
             android:layout_marginTop="1285dp"
             android:layout_marginEnd="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/dgrate"
+            android:background="@drawable/dgrate_accent_2"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
@@ -439,7 +443,7 @@
             android:layout_marginTop="1440dp"
             android:layout_marginEnd="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/dgrate"
+            android:background="@drawable/dgrate_accent_2"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
@@ -457,7 +461,6 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="ContentDescription,MissingConstraints" />
-
             <TextView
                 android:id="@+id/text_nt_10"
                 android:layout_width="wrap_content"
@@ -468,9 +471,7 @@
                 android:layout_marginLeft="10dp"
                 android:textStyle="bold"
                 android:layout_marginStart="10dp" />
-
         </LinearLayout>
-
         <LinearLayout
             android:id="@+id/non_event_11"
             android:layout_width="350dp"
@@ -484,13 +485,12 @@
             android:layout_marginTop="1595dp"
             android:layout_marginEnd="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/dgrate"
+            android:background="@drawable/dgrate_accent_2"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
             android:orientation="horizontal"
             tools:ignore="UnusedAttribute">
-
             <ImageView
                 android:id="@+id/imageView11"
                 android:layout_width="100dp"
@@ -502,7 +502,6 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="ContentDescription,MissingConstraints" />
-
             <TextView
                 android:id="@+id/text_nt_11"
                 android:layout_width="wrap_content"
@@ -513,9 +512,6 @@
                 android:layout_marginLeft="10dp"
                 android:textStyle="bold"
                 android:layout_marginStart="10dp" />
-
         </LinearLayout>
-
-
-    </RelativeLayout>
+</RelativeLayout>
 </ScrollView>

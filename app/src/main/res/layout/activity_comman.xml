@@ -1,4 +1,4 @@
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,37 +6,44 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/e_title"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="75dp"
-        android:gravity="center"
-        android:textAllCaps="true"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:fontFamily="monospace"
-        android:background="@drawable/dgrate_accent_1"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="66dp"
-        tools:ignore="HardcodedText" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_gravity="center"
-        tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/e_title"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="monospace"
+            android:background="@drawable/dgrate_accent_1"
+            tools:layout_editor_absoluteX="179dp"
+            tools:layout_editor_absoluteY="66dp"
+            tools:ignore="HardcodedText" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="385dp"
-        android:layout_height="427dp"
-        android:layout_gravity="center"
-        android:background="@drawable/dgrate"
-        android:text="Event Description"
-        android:textSize="16sp"
-        tools:ignore="HardcodedText" />
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            tools:ignore="ContentDescription" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="385dp"
+            android:layout_height="427dp"
+            android:layout_gravity="center"
+            android:background="@drawable/dgrate"
+            android:text="Event Description"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</ScrollView>
