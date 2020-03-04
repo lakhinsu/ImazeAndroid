@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -35,6 +36,11 @@ public class home_activity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.acc_activity:
+                Intent i =new Intent(this,account.class);
+                startActivity(i);
+                break;
+            case R.id.exit_app:
+                finish();
                 break;
         }
        return super.onOptionsItemSelected(item);

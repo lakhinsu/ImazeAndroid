@@ -7,4 +7,10 @@
     <color name="imaze_color_1">#F66934</color>
     <color name="imaze_color_2">#36649F</color>
     <color name="white">#ffffff</color>
+    <color name="darkergray">#121212</color>
+    <color name="darkgray">#545555</color>
+    <color name="darkblue">#1b262c</color>
+    <color name="blue">#0F4C75</color>
+    <color name="bluee">#3282B8</color>
+    <color name="blueee">#bbe1fa</color>
 </resources>

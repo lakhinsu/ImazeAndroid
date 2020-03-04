@@ -3,8 +3,8 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimaryDark</item>
-        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorPrimary">@color/bluee</item>
+        <item name="colorPrimaryDark">@color/blue</item>
         <item name="colorAccent">@color/imaze_color_2</item>
         <!--Card View Launching Animation-->
         <item name="android:windowContentTransitions" tools:ignore="NewApi">true</item>
