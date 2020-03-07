@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import com.example.imazeandroid.R;
 import com.example.imazeandroid.common;
+import com.example.imazeandroid.common_screen;
 
 
 /**
@@ -31,6 +32,8 @@ public class tech_fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.tech_fragment, container, false);
+
+
 
         tv1= v.findViewById(R.id.text_tec_1);
         tv2= v.findViewById(R.id.text_tec_2);
@@ -58,7 +61,7 @@ public class tech_fragment extends Fragment {
         tech1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv1.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -67,7 +70,7 @@ public class tech_fragment extends Fragment {
         tech2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv2.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -76,7 +79,7 @@ public class tech_fragment extends Fragment {
         tech3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv3.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -85,7 +88,7 @@ public class tech_fragment extends Fragment {
         tech4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv4.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -94,7 +97,7 @@ public class tech_fragment extends Fragment {
         tech5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv5.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -103,7 +106,7 @@ public class tech_fragment extends Fragment {
         tech6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv6.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -112,7 +115,7 @@ public class tech_fragment extends Fragment {
         tech7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv7.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -121,7 +124,7 @@ public class tech_fragment extends Fragment {
         tech8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv8.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -130,7 +133,7 @@ public class tech_fragment extends Fragment {
         tech9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv9.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -139,7 +142,7 @@ public class tech_fragment extends Fragment {
         tech10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv10.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
