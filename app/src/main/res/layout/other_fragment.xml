@@ -1,19 +1,254 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragments.other_fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="37dp"
-        android:layout_height="20dp"
-        android:text="@string/other_fragment"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/darkergray"
+        android:layout_height="675dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="31dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text=" Event"
+            android:layout_marginTop="7dp"
+            android:textSize="24sp"
+            android:background="@drawable/dgrate_accent_2"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+        <LinearLayout
+            android:id="@+id/non_event_1"
+            android:layout_width="350dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/dgrate_accent_2"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            tools:ignore="UnusedAttribute">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_nt_img_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_nt_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/non_tech_event_1"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/non_event_2"
+            android:layout_width="350dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/dgrate_accent_2"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            tools:ignore="UnusedAttribute">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_nt_img_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_nt_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="55dp"
+                android:text="@string/non_tech_event_1"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/non_event_3"
+            android:layout_width="350dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="355dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/dgrate_accent_2"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            tools:ignore="UnusedAttribute">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_nt_img_3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_nt_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/non_tech_event_3"
+                android:layout_marginTop="55dp"
+                android:textSize="25sp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/non_event_4"
+            android:layout_width="350dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="510dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/dgrate_accent_2"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            tools:ignore="UnusedAttribute">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_nt_img_4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text_nt_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/non_tech_event_4"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/non_event_5"-->
+<!--            android:layout_width="350dp"-->
+<!--            android:layout_height="140dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginStart="30dp"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_marginTop="665dp"-->
+<!--            android:layout_marginEnd="30dp"-->
+<!--            android:layout_marginRight="30dp"-->
+<!--            android:background="@drawable/dgrate_accent_2"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:foreground="?attr/selectableItemBackground"-->
+<!--            android:orientation="horizontal"-->
+<!--            tools:ignore="UnusedAttribute">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView5"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:adjustViewBounds="false"-->
+<!--                android:cropToPadding="false"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/ic_nt_img_5"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                tools:ignore="ContentDescription,MissingConstraints"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/text_nt_5"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/non_tech_event_5"-->
+<!--                android:layout_marginTop="55dp"-->
+<!--                android:textSize="25sp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_marginStart="10dp" />-->
+
+<!--        </LinearLayout>-->
+
+    </RelativeLayout>
+
+</ScrollView>
