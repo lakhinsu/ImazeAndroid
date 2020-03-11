@@ -14,18 +14,24 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.VideoView;
+
+import org.w3c.dom.Text;
 
 import java.util.List;
 
 public class common_screen extends AppCompatActivity {
 
     ProgressDialog p;
+    TextView eventInfo;
+    String sheetid;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_common_screen);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        eventInfo = (TextView) findViewById(R.id.eventinfo);
         setSupportActionBar(toolbar);
         CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
         String eventTitle=getIntent().getExtras().getString("ev");
@@ -38,6 +44,9 @@ public class common_screen extends AppCompatActivity {
         String url = eventResourceMapper.getVideoURL();
         videoView.setVideoPath(url);
         videoView.start();
+
+        sheetid = eventResourceMapper.getSheetID();
+
 
         videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             @Override
@@ -64,7 +73,7 @@ public class common_screen extends AppCompatActivity {
 
         @Override
         protected Event doInBackground(Object[] objects) {
-            SpreadSheetApi spreadSheetApi = new SpreadSheetApi(getApplicationContext(), "1vVa_nPyQEbVtdDL6zdnWZ8pgxBnGQhqFNuIxfUOCJ04");
+            SpreadSheetApi spreadSheetApi = new SpreadSheetApi(getApplicationContext(), sheetid);
             Event event = spreadSheetApi.getSheet();
             return event;
         }
@@ -73,7 +82,43 @@ public class common_screen extends AppCompatActivity {
         protected void onPostExecute(Object o) {
             p.hide();
             Event event = (Event) o;
-            Log.d("spreadsheet",event.getEvent_description());
+            Log.d("spreadsheet",event.getEvent_title());
+            String info = "";
+
+            //Add Description
+            info += "Description\n\n";
+            info += "\t\t\t" + event.getEvent_description();
+            info += "\n\n";
+
+            info += "Rounds\n\n";
+
+            //Add Rounds Info
+            for(int i=0; i<event.getRounds_info().size();i++){
+                info += ("Round " + (i+1) + "\n\n");
+                info += ("\t\t\t" + event.getRounds_info().get(i) + "\n\n");
+            }
+            info += "\n\n";
+
+            //Add Judgement Criteria
+            info += "Judgement Criteria\n\n";
+            for(int i=0; i<event.getJudgement_criteria().size();i++){
+                info += ("Round " + (i+1) + "\n\n");
+                info += ("\t\t\t"+event.getJudgement_criteria().get(i) + "\n\n");
+            }
+            info += "\n\n";
+
+            //Add Team Size
+            info += "Team Size\n";
+            info += "\t\t\t"+event.getTeam_size();
+            info += "\n\n";
+
+            //Add Coordinators info
+            info += "Event Coordinators\n";
+            for(int i=0;i<event.getCoordinators_info().size();i++){
+                info += ("\t\t" + (i+1) + "." + event.getCoordinators_info().get(i) + "\n");
+            }
+
+            eventInfo.setText(info);
             super.onPostExecute(o);
         }
     }

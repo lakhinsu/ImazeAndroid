@@ -75,7 +75,7 @@ public class home_screen extends AppCompatActivity {
                             collapsingToolbarLayout.setTitle("Non-Tech Events");
                             break;
                         case R.id.nav_other:
-                            collapsingToolbarLayout.setTitle("Other Event");
+                            collapsingToolbarLayout.setTitle("Other Events");
                             selectedFragment = new other_fragment();
                             break;
                     }

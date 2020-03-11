@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,13 +7,147 @@
     tools:context=".Fragments.other_fragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="37dp"
-        android:layout_height="20dp"
-        android:text="@string/other_fragment"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkergray">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/dgrate_accent_2"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            tools:ignore="UnusedAttribute">
+
+
+            <TextView
+                android:id="@+id/text_nt_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coming Soon"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/dgrate_accent_2"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            tools:ignore="UnusedAttribute">
+
+
+            <TextView
+                android:id="@+id/text_nt_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="55dp"
+                android:text="Coming Soon"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="355dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/dgrate_accent_2"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            tools:ignore="UnusedAttribute">
+
+
+            <TextView
+                android:id="@+id/text_nt_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coming Soon"
+                android:layout_marginTop="55dp"
+                android:textSize="25sp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="510dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/dgrate_accent_2"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            tools:ignore="UnusedAttribute">
+
+
+            <TextView
+                android:id="@+id/text_nt_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coming Soon"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>
