@@ -29,14 +29,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".home_screen" />
         </activity>
-        <activity
-            android:name=".common"
-            android:parentActivityName=".home_screen"
-            tools:ignore="UnusedAttribute">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".home_screen" />
-        </activity>
         <activity android:name=".splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

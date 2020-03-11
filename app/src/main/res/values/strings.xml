@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ImazeAndroid</string>
+    <string name="app_name">Imaze2020</string>
 
     <!--Bottom navigation title -->
     <string name="tab_1">Technical</string>
@@ -12,7 +12,7 @@
     <string name="other_fragment">Other</string>
 
     <!-- Item menu title -->
-    <string name="acc_title">Account</string>
+    <string name="acc_title">Registration</string>
     <string name="exit">Exit</string>
 
     <!--  Techinal Event Name  -->
@@ -23,7 +23,7 @@
     <string name="tech_event_4">Game of Codes</string>
     <string name="tech_event_5">Hydrizer</string>
     <string name="tech_event_6">World War 3</string>
-    <string name="tech_event_7">Armagendon</string>
+    <string name="tech_event_7">Armaggedon</string>
     <string name="tech_event_8">Electromania</string>
     <string name="tech_event_9">Electrosparkz</string>
     <string name="tech_event_10">Trail To Recruit</string>

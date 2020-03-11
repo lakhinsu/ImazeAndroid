@@ -13,7 +13,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.imazeandroid.R;
-import com.example.imazeandroid.common;
 import com.example.imazeandroid.common_screen;
 
 

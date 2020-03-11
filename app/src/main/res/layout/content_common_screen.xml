@@ -8,10 +8,33 @@
     tools:context=".common_screen"
     tools:showIn="@layout/activity_common_screen">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/darkergray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@drawable/dgrate_accent_2"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            tools:ignore="UnusedAttribute">
+
+            <TextView
+                android:id="@+id/eventinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No data"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
 
 </androidx.core.widget.NestedScrollView>
