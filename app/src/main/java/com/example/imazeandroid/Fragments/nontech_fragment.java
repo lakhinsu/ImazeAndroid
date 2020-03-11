@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.imazeandroid.R;
-import com.example.imazeandroid.common;
+import com.example.imazeandroid.common_screen;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -58,7 +58,7 @@ public class nontech_fragment extends Fragment {
         nt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv1.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -67,7 +67,7 @@ public class nontech_fragment extends Fragment {
         nt2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv2.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -76,7 +76,7 @@ public class nontech_fragment extends Fragment {
         nt3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv3.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -85,7 +85,7 @@ public class nontech_fragment extends Fragment {
         nt4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv4.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -94,7 +94,7 @@ public class nontech_fragment extends Fragment {
         nt5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv5.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -103,7 +103,7 @@ public class nontech_fragment extends Fragment {
         nt6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv6.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -112,7 +112,7 @@ public class nontech_fragment extends Fragment {
         nt7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv7.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -121,7 +121,7 @@ public class nontech_fragment extends Fragment {
         nt8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv8.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -130,7 +130,7 @@ public class nontech_fragment extends Fragment {
         nt9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv9.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -139,7 +139,7 @@ public class nontech_fragment extends Fragment {
         nt10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv10.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);
@@ -148,7 +148,7 @@ public class nontech_fragment extends Fragment {
         nt11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getContext(), common.class);
+                Intent i=new Intent(getContext(), common_screen.class);
                 String str=tv11.getText().toString();
                 i.putExtra("ev",str);
                 startActivity(i);

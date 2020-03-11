@@ -208,50 +208,50 @@
 
         </LinearLayout>
 
-<!--        <LinearLayout-->
-<!--            android:id="@+id/non_event_5"-->
-<!--            android:layout_width="350dp"-->
-<!--            android:layout_height="140dp"-->
-<!--            android:layout_alignParentStart="true"-->
-<!--            android:layout_alignParentLeft="true"-->
-<!--            android:layout_alignParentEnd="true"-->
-<!--            android:layout_alignParentRight="true"-->
-<!--            android:layout_marginStart="30dp"-->
-<!--            android:layout_marginLeft="30dp"-->
-<!--            android:layout_marginTop="665dp"-->
-<!--            android:layout_marginEnd="30dp"-->
-<!--            android:layout_marginRight="30dp"-->
-<!--            android:background="@drawable/dgrate_accent_2"-->
-<!--            android:clickable="true"-->
-<!--            android:focusable="true"-->
-<!--            android:foreground="?attr/selectableItemBackground"-->
-<!--            android:orientation="horizontal"-->
-<!--            tools:ignore="UnusedAttribute">-->
+        <!--        <LinearLayout-->
+        <!--            android:id="@+id/non_event_5"-->
+        <!--            android:layout_width="350dp"-->
+        <!--            android:layout_height="140dp"-->
+        <!--            android:layout_alignParentStart="true"-->
+        <!--            android:layout_alignParentLeft="true"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_alignParentRight="true"-->
+        <!--            android:layout_marginStart="30dp"-->
+        <!--            android:layout_marginLeft="30dp"-->
+        <!--            android:layout_marginTop="665dp"-->
+        <!--            android:layout_marginEnd="30dp"-->
+        <!--            android:layout_marginRight="30dp"-->
+        <!--            android:background="@drawable/dgrate_accent_2"-->
+        <!--            android:clickable="true"-->
+        <!--            android:focusable="true"-->
+        <!--            android:foreground="?attr/selectableItemBackground"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            tools:ignore="UnusedAttribute">-->
 
-<!--            <ImageView-->
-<!--                android:id="@+id/imageView5"-->
-<!--                android:layout_width="100dp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:adjustViewBounds="false"-->
-<!--                android:cropToPadding="false"-->
-<!--                android:scaleType="fitCenter"-->
-<!--                android:src="@drawable/ic_nt_img_5"-->
-<!--                app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="parent"-->
-<!--                tools:ignore="ContentDescription,MissingConstraints"/>-->
+        <!--            <ImageView-->
+        <!--                android:id="@+id/imageView5"-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:adjustViewBounds="false"-->
+        <!--                android:cropToPadding="false"-->
+        <!--                android:scaleType="fitCenter"-->
+        <!--                android:src="@drawable/ic_nt_img_5"-->
+        <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--                app:layout_constraintTop_toTopOf="parent"-->
+        <!--                tools:ignore="ContentDescription,MissingConstraints"/>-->
 
-<!--            <TextView-->
-<!--                android:id="@+id/text_nt_5"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="@string/non_tech_event_5"-->
-<!--                android:layout_marginTop="55dp"-->
-<!--                android:textSize="25sp"-->
-<!--                android:layout_marginLeft="10dp"-->
-<!--                android:textStyle="bold"-->
-<!--                android:layout_marginStart="10dp" />-->
+        <!--            <TextView-->
+        <!--                android:id="@+id/text_nt_5"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="@string/non_tech_event_5"-->
+        <!--                android:layout_marginTop="55dp"-->
+        <!--                android:textSize="25sp"-->
+        <!--                android:layout_marginLeft="10dp"-->
+        <!--                android:textStyle="bold"-->
+        <!--                android:layout_marginStart="10dp" />-->
 
-<!--        </LinearLayout>-->
+        <!--        </LinearLayout>-->
 
     </RelativeLayout>
 

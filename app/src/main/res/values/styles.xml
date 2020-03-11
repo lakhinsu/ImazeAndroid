@@ -5,9 +5,18 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/bluee</item>
         <item name="colorPrimaryDark">@color/blue</item>
-        <item name="colorAccent">@color/imaze_color_2</item>
+        <item name="colorAccent">@color/imaze_color_1</item>
         <!--Card View Launching Animation-->
         <item name="android:windowContentTransitions" tools:ignore="NewApi">true</item>
     </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

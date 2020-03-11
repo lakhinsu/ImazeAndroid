@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.imazeandroid">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+<<<<<<< HEAD
         <activity android:name=".other_activity.design_innovation">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -42,15 +45,23 @@
         <activity
             android:name=".common"
             android:parentActivityName="."
+=======
+        <activity
+            android:name=".common_screen"
+            android:label="@string/title_activity_common_screen"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".home_screen"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".account"
+            android:parentActivityName=".home_screen"
+>>>>>>> dev
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".home_activity" />
-        </activity>
-        <activity android:name=".home_activity">
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+                android:value=".home_screen" />
         </activity>
         <activity android:name=".splashscreen">
             <intent-filter>
