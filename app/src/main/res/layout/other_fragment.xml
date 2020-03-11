@@ -11,17 +11,6 @@
         android:background="@color/darkergray"
         android:layout_height="675dp">
 
-        <TextView
-            android:layout_width="250dp"
-            android:layout_height="31dp"
-            android:layout_centerHorizontal="true"
-            android:gravity="center"
-            android:text=" Event"
-            android:layout_marginTop="7dp"
-            android:textSize="24sp"
-            android:background="@drawable/dgrate_accent_2"
-            android:textStyle="bold"
-            tools:ignore="HardcodedText,MissingConstraints" />
 
         <LinearLayout
             android:id="@+id/other_event_1"

@@ -20,9 +20,9 @@ TextView t1;
         setContentView(R.layout.activity_pro_night);
 
         t1=findViewById(R.id.description);
-        t1.setText("-> Music, once admitted to the soul becomes a spirit and never dies.\\n\\n\n" +
-                "        -> IMAZE '20 brings you the ultimate captivating fiesta, an electrifying PRO-NIGHT to revel. Hold fast your zestful spirit, swing into some infectious tunes and get ready to witness the dazzling live musical performance.\\n\\n\n" +
-                "        -> So, don't fail to hit the delightful musical bash on IMAZE eve.\\n\\n");
+        t1.setText("\tMusic, once admitted to the soul becomes a spirit and never dies.\n\n" +
+                "\tIMAZE '20 brings you the ultimate captivating fiesta, an electrifying PRO-NIGHT to revel. Hold fast your zestful spirit, swing into some infectious tunes and get ready to witness the dazzling live musical performance.\n\n" +
+                "\tSo, don't fail to hit the delightful musical bash on IMAZE eve.\n\n");
         ActionBar actionBar = getActionBar();
         if (actionBar != null) {
             actionBar.setHomeButtonEnabled(true);

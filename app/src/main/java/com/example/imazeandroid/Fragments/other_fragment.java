@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import com.example.imazeandroid.R;
+import com.example.imazeandroid.other_activity.tech_eureka;
 
 
 /**
@@ -53,14 +54,14 @@ public class other_fragment extends Fragment {
         other_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getContext(),com.example.imazeandroid.other_activity.diy_activity.class);
+                Intent i = new Intent(getContext(), com.example.imazeandroid.other_activity.tech_eureka.class);
                 startActivity(i);
             }
         });
         other_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getContext(),com.example.imazeandroid.other_activity.diy_activity.class);
+                Intent i = new Intent(getContext(),com.example.imazeandroid.other_activity.pro_night.class);
                 startActivity(i);
             }
         });

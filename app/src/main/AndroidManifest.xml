@@ -13,7 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-<<<<<<< HEAD
         <activity android:name=".other_activity.design_innovation">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -35,18 +34,6 @@
                 android:value=".home_activity" />
         </activity>
         <activity
-            android:name=".account"
-            android:parentActivityName=".home_activity"
-            tools:ignore="UnusedAttribute">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".home_activity" />
-        </activity>
-        <activity
-            android:name=".common"
-            android:parentActivityName="."
-=======
-        <activity
             android:name=".common_screen"
             android:label="@string/title_activity_common_screen"
             android:theme="@style/AppTheme.NoActionBar"></activity>
@@ -57,7 +44,6 @@
         <activity
             android:name=".account"
             android:parentActivityName=".home_screen"
->>>>>>> dev
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
