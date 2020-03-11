@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">ImazeAndroid</string>
 
     <!--Bottom navigation title -->
@@ -19,7 +19,7 @@
 
     <string name="tech_event_1">Scrub The Mind</string>
     <string name="tech_event_2">Rotolare</string>
-    <string name="tech_event_3">Codothon</string>
+    <string name="tech_event_3">Codathon</string>
     <string name="tech_event_4">Game of Codes</string>
     <string name="tech_event_5">Hydrizer</string>
     <string name="tech_event_6">World War 3</string>
@@ -30,7 +30,6 @@
 
 
     <!--  Non-Techinal Event Name  -->
-agaa
     <string name="non_tech_event_1">The Survival 2.0</string>
     <string name="non_tech_event_2">Venture-O-Belt</string>
     <string name="non_tech_event_3">Gobble Step</string>
@@ -42,5 +41,13 @@ agaa
     <string name="non_tech_event_9">Master Chef 2.0</string>
     <string name="non_tech_event_10">Trade X</string>
     <string name="non_tech_event_11">Flix-Frenzy</string>
+
+    <!--  Other Event Name  -->
+    <string name="other_event_diy">Do it Yourself</string>
+    <string name="other_event_innovation">Design Innovation</string>
+    <string name="other_event_pro_night">Pro Night</string>
+    <string name="other_event_tech_eureka">Tech Eureka</string>
+    
+
 
 </resources>

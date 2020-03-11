@@ -11,7 +11,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".account"
+        <activity android:name=".other_activity.design_innovation">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home_activity" />
+        </activity>
+        <activity android:name=".other_activity.pro_night" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home_activity" />
+        </activity>
+        <activity android:name=".other_activity.tech_eureka" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home_activity" />
+        </activity>
+        <activity android:name=".other_activity.diy_activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home_activity" />
+        </activity>
+        <activity
+            android:name=".account"
             android:parentActivityName=".home_activity"
             tools:ignore="UnusedAttribute">
             <meta-data
@@ -20,7 +41,7 @@
         </activity>
         <activity
             android:name=".common"
-            android:parentActivityName=".home_activity"
+            android:parentActivityName="."
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

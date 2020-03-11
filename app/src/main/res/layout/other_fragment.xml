@@ -24,7 +24,7 @@
             tools:ignore="HardcodedText,MissingConstraints" />
 
         <LinearLayout
-            android:id="@+id/non_event_1"
+            android:id="@+id/other_event_1"
             android:layout_width="350dp"
             android:layout_height="140dp"
             android:layout_marginStart="30dp"
@@ -50,16 +50,16 @@
                 android:adjustViewBounds="false"
                 android:cropToPadding="false"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ic_nt_img_1"
+                android:src="@drawable/ic_diy_event"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="ContentDescription,MissingConstraints" />
 
             <TextView
-                android:id="@+id/text_nt_1"
+                android:id="@+id/other_ev_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/non_tech_event_1"
+                android:text="@string/other_event_diy"
                 android:layout_marginTop="55dp"
                 android:layout_marginLeft="10dp"
                 android:textSize="25sp"
@@ -70,7 +70,7 @@
 
 
         <LinearLayout
-            android:id="@+id/non_event_2"
+            android:id="@+id/other_event_2"
             android:layout_width="350dp"
             android:layout_height="140dp"
             android:layout_alignParentStart="true"
@@ -96,18 +96,18 @@
                 android:adjustViewBounds="false"
                 android:cropToPadding="false"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ic_nt_img_2"
+                android:src="@drawable/ic_innovation"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="ContentDescription,MissingConstraints" />
 
             <TextView
-                android:id="@+id/text_nt_2"
+                android:id="@+id/other_ev_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="55dp"
-                android:text="@string/non_tech_event_1"
+                android:text="@string/other_event_innovation"
                 android:textSize="25sp"
                 android:textStyle="bold"
                 android:layout_marginStart="10dp" />
@@ -115,7 +115,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/non_event_3"
+            android:id="@+id/other_event_3"
             android:layout_width="350dp"
             android:layout_height="140dp"
             android:layout_alignParentStart="true"
@@ -137,20 +137,21 @@
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="100dp"
+                android:layout_marginTop="20dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="false"
                 android:cropToPadding="false"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ic_nt_img_3"
+                android:src="@drawable/ic_tech_eureka"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="ContentDescription,MissingConstraints" />
 
             <TextView
-                android:id="@+id/text_nt_3"
+                android:id="@+id/other_ev_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/non_tech_event_3"
+                android:text="@string/other_event_tech_eureka"
                 android:layout_marginTop="55dp"
                 android:textSize="25sp"
                 android:layout_marginLeft="10dp"
@@ -160,7 +161,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/non_event_4"
+            android:id="@+id/other_event_4"
             android:layout_width="350dp"
             android:layout_height="140dp"
             android:layout_alignParentStart="true"
@@ -181,26 +182,29 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="100dp"
+                android:layout_width="75dp"
+                android:layout_marginLeft="7dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:adjustViewBounds="false"
                 android:cropToPadding="false"
-                android:scaleType="fitCenter"
-                android:src="@drawable/ic_nt_img_4"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_pro_night"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="ContentDescription,MissingConstraints" />
 
             <TextView
-                android:id="@+id/text_nt_4"
+                android:id="@+id/other_ev_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/non_tech_event_4"
+                android:text="@string/other_event_pro_night"
                 android:layout_marginTop="55dp"
                 android:layout_marginLeft="10dp"
                 android:textSize="25sp"
                 android:textStyle="bold"
-                android:layout_marginStart="10dp" />
+                android:layout_marginStart="30dp" />
 
         </LinearLayout>
 

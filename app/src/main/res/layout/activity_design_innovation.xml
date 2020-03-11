@@ -1,14 +1,13 @@
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
+    tools:context=".other_activity.design_innovation">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="@color/darkergray"
         android:orientation="vertical">
 
@@ -22,6 +21,7 @@
             android:textAllCaps="true"
             android:textColor="@color/white"
             android:textSize="20sp"
+            android:text="@string/other_event_innovation"
             android:textStyle="bold"
             app:fontFamily="monospace"
             android:background="@drawable/dgrate_accent_2"
@@ -29,23 +29,18 @@
             tools:layout_editor_absoluteY="66dp"
             tools:ignore="HardcodedText" />
 
-        <ImageView
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            tools:ignore="ContentDescription" />
-
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/description"
             android:layout_width="385dp"
+            android:layout_marginTop="30dp"
             android:layout_height="427dp"
-            android:textColor="@color/white"
             android:layout_gravity="center"
             android:background="@drawable/dgrate_accent_2"
-            android:text="Event Description"
-            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="text"
+            android:textSize="20sp"
             tools:ignore="HardcodedText" />
 
     </LinearLayout>
 
-</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
