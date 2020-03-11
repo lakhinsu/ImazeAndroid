@@ -13,6 +13,26 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".other_activity.design_innovation">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home_activity" />
+        </activity>
+        <activity android:name=".other_activity.pro_night" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home_activity" />
+        </activity>
+        <activity android:name=".other_activity.tech_eureka" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home_activity" />
+        </activity>
+        <activity android:name=".other_activity.diy_activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home_activity" />
+        </activity>
         <activity
             android:name=".common_screen"
             android:label="@string/title_activity_common_screen"
