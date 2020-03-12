@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.imazeandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -8,8 +11,45 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".other_activity.design_innovation">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home_activity" />
+        </activity>
+        <activity android:name=".other_activity.pro_night" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home_activity" />
+        </activity>
+        <activity android:name=".other_activity.tech_eureka" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home_activity" />
+        </activity>
+        <activity android:name=".other_activity.diy_activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home_activity" />
+        </activity>
+        <activity
+            android:name=".common_screen"
+            android:label="@string/title_activity_common_screen"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".home_screen"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".account"
+            android:parentActivityName=".home_screen"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home_screen" />
+        </activity>
+        <activity android:name=".splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
